@@ -12,7 +12,7 @@
     <a href="https://chowrite.auth.us-east-1.amazoncognito.com/login?client_id=6gobg15ql2ojg47jn28ji9dv9g&response_type=code&scope=aws.cognito.signin.user.admin+email+openid+phone+profile&redirect_uri=https://chowrite.herokuapp.com">Sign In</a>
     {% elif status == 1 %}
     <h3 style="color: green;">Hi {{ name }}!</h3>
-    <a href="https://chowrite.auth.us-east-1.amazoncognito.com/logout?client_id=6gobg15ql2ojg47jn28ji9dv9g&logout_uri=https://chowrite.herokuapp.com/signout">Sign Out</a>
+    <a style="background-color: aqua; text-decoration: none; color: black; padding: 10px;" href="https://chowrite.auth.us-east-1.amazoncognito.com/logout?client_id=6gobg15ql2ojg47jn28ji9dv9g&logout_uri=https://chowrite.herokuapp.com/signout">Sign Out</a>
     {% endif %}
 </body>
 </html>
